@@ -1,0 +1,79 @@
+body {
+    background-image: url("img/bakgrunn.png");
+    background-color: burlywood;
+    background-repeat: no-repeat;
+    font-family: monospace;
+}
+
+#top {
+    display: flex;
+    justify-content: center;
+}
+
+#top a img {
+    height: 60px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+#logo {
+    /* background-image: url("img/HMD-logo-gul.png"); */
+    background: url(img/HMD-logo-gul.png) no-repeat center center;
+    background-size:80px 80px;
+    width: 80px;
+
+}
+
+#album {
+    /* background-image: url("img/HMD-logo-gul.png"); */
+    background: url(img/logo2.png) no-repeat center center;
+    background-size:100px 100px;
+    width: 100px;
+    height: 300px;
+
+}
+
+.menu {
+    margin: 0 auto;
+    width: 950px;
+    text-align: center;
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+#lobster {
+    /* background-image: url("img/HMD-logo-gul.png"); */
+    margin-top: 20px;
+    background: url(img/Lobster-logo.png) no-repeat center center;
+    background-size:70px 70px;
+    width: 90px;
+    height: 90px;
+    padding: 8px;
+
+}
+
+.menu img:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+a img:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#about {
+    width: 700px;
+    background-color: rgba(255,255,255,0.2);
+    color: sienna;
+    margin: 550px auto;
+    padding: 20px;
+}
