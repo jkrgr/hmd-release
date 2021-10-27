@@ -3,7 +3,6 @@ body {
     background-color: burlywood;
     background-repeat: no-repeat;
     font-family: monospace;
-    font-size: 20px;
 }
 
 #top {
@@ -77,4 +76,5 @@ a img:hover {
     color: sienna;
     margin: 550px auto;
     padding: 20px;
+    font-size: 20px;
 }
