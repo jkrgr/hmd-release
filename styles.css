@@ -1,8 +1,11 @@
 body {
+    font-family: monospace;
+}
+
+.background {
     background-image: url("img/bakgrunn.png");
     background-color: burlywood;
     background-repeat: no-repeat;
-    font-family: monospace;
 }
 
 #top {
@@ -89,4 +92,12 @@ a img:hover {
 #about img {
     width: 700px;
     padding-bottom: 50px;
+}
+
+#scroll {
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    display: flex;
 }
