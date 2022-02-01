@@ -54,6 +54,10 @@ body {
     padding-top: 100px;
 }
 
+#bottom a img {
+    height: 60px;
+}
+
 #lobster {
     /* background-image: url("img/HMD-logo-gul.png"); */
     margin-top: 20px;
@@ -80,4 +84,9 @@ a img:hover {
     margin: 550px auto;
     padding: 20px;
     font-size: 20px;
+}
+
+#about img {
+    width: 700px;
+    padding-bottom: 50px;
 }
